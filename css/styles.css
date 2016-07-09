@@ -4319,12 +4319,16 @@ body {
     width: 400px;
     margin: auto;
     text-align: center; }
-    /* line 161, ../../source_sass/_base.scss */
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      /* line 157, ../../source_sass/_base.scss */
+      .Wayfair_Match_App .buttons {
+        margin: -10px auto; } }
+    /* line 164, ../../source_sass/_base.scss */
     .Wayfair_Match_App .buttons button {
       width: 80px;
       margin: 0 10px; }
       @media screen and (min-width: 40em) {
-        /* line 165, ../../source_sass/_base.scss */
+        /* line 168, ../../source_sass/_base.scss */
         .Wayfair_Match_App .buttons button:focus {
           outline: none; } }
 
