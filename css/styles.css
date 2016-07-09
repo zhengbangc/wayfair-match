@@ -4175,7 +4175,7 @@ table.hover tr:nth-of-type(even):hover {
     @media screen and (min-width: 0em) and (max-width: 39.9375em) {
       /* line 6, ../../source_sass/_base.scss */
       .Wayfair_Match_App .wayfair_logo {
-        margin: 20px auto;
+        margin: 20px auto -15px;
         width: 90px; } }
   /* line 16, ../../source_sass/_base.scss */
   .Wayfair_Match_App .product_cards ul {
@@ -4328,10 +4328,6 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out; }
-        /* line 166, ../../source_sass/_base.scss */
-        .Wayfair_Match_App .buttons button img:hover {
-          -webkit-filter: drop-shadow(0px 9px 33px 2px #000);
-          filter: drop-shadow(0px 9px 33px 2px #000); }
 
 /*
   NOTE: Do not touch this file. Write the bulk of your custom styles
