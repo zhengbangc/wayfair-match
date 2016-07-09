@@ -1,0 +1,38 @@
+<div class="Wayfair_Match_App">
+	<img class="wayfair_logo" src="data/wayfair_logo.jpg">
+
+	<div class="product_cards">
+	    <ul swing-stack swing-options="options">
+	    	<li swing-card
+	    	swing-on-throwout="remove($index)"
+        	ng-repeat="product in products"
+        	class="pane{{$index}}"
+        	>
+	        	<div class="promotion_header">
+					<p>Checkout now to get <span>30%</span> off extra</p>
+					<p><span>{{down_count}}</span> Until Offer Ends</p>
+				</div>
+				<div class="product_image"><img ng-src="{{product.img}}" alt="Product Image"></div>
+				<div class="product_description">
+					<p>{{product.name}}</p>
+					<p>by {{product.manufacturer}}</p>
+					<div class="product_price">
+						<span>${{product.after_price}}</span>
+						<span>${{product.before_price}}</span>
+					</div>
+				</div>
+	        	<button class="like"></button><button class="dislike"></button></li>
+        	</li>
+	    </ul>
+	    <!-- <ul>
+	    	<li ng-repeat="product in products" class="pane{{$index+1}} {{$index}}">
+				
+	    	</li>	       
+	    </ul> -->
+	</div>
+	<div class="buttons">
+		<button class="dislike"><img src="data/dislike.svg"></button>
+		<button class="checkout"><img src="data/checkout.svg"></button>
+		<button class="like"><img src="data/like.svg"></button>
+	</div>
+</div>

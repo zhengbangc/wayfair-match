@@ -1,0 +1,1 @@
+var app=angular.module("mp4",["ngRoute","mp4Controllers","mp4Services","gajus.swing"]);app.config(["$routeProvider","$locationProvider",function($routeProvider,$locationProvider){$routeProvider.when("/",{templateUrl:"partials/Wayfair_Match_App.html",controller:"WayfairMatchAppController"}).otherwise({redirectTo:"/"}),$locationProvider.html5Mode({enabled:!0,requireBase:!1})}]);

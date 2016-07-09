@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="208px" height="72px" viewBox="0 0 208 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="208" height="71.5789474"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="208" height="71.5789474" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Wayfair-Match" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tags" transform="translate(-97.000000, -153.000000)">
+            <g id="Group-Copy" transform="translate(97.000000, 153.000000)">
+                <use id="Rectangle-29" stroke="#C32C05" mask="url(#mask-2)" stroke-width="8" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <text id="NOPE" font-family="AppleSDGothicNeo-SemiBold, Apple SD Gothic Neo" font-size="70" font-weight="500" fill="#C32C05">
+                    <tspan x="17.465" y="63">NOPE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

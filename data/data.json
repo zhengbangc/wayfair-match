@@ -1,0 +1,141 @@
+  [
+    {
+      "img": "data/sample.jpg",
+      "name": "Sandra Venditti Crusoe Quilt Set",
+      "manufacturer":"Some Manufacturer",
+      "before_price": 59.00,
+      "after_price": 40.99,
+      "desc": {
+        "style": "lifestyle",
+        "color": "blue",
+        "size": "12 x 12 x 12",
+        "type": "couch"
+      }
+    },
+    {
+      "img": "data/kitchen1.jpg",
+      "name": "Explore Single Handle Deck Mount Kitchen Faucet",
+      "manufacturer":"Elkay",
+      "before_price": 850.00,
+      "after_price": 448.99,
+      "percent_off": 47,
+      "desc": {
+        "style": "ancient",
+        "color": "blue",
+        "size": "12 x 12 x 12",
+        "type": "Kitchen"
+      }
+    },
+    {
+      "img": "data/rug2.jpg",
+      "name": "Birdwell Area Rug",
+      "manufacturer":"Charlton Home",
+      "before_price": 95.00,
+      "after_price": 38.99,
+      "percent_off": 30,
+      "desc": {
+        "style": "modern",
+        "color": "red",
+        "size": "12 x 12 x 12",
+        "type": "Rug"
+      }
+    },
+    {
+      "img": "data/rug1.jpg",
+      "name": "Natural Taupe Area Rug",
+      "manufacturer":"Andover Mills",
+      "before_price": 43.45,
+      "after_price": 37.45,
+      "percent_off": 20,
+      "desc": {
+        "style": "antique",
+        "color": "brown",
+        "size": "12 x 12 x 12",
+        "type": "Rug"
+      }
+    },
+    {
+      "img": "data/lamp2.jpg",
+      "name": "Willow 58' Floor Lamp",
+      "manufacturer":"Alcott Hill",
+      "before_price": 12,
+      "after_price": 10,
+      "percent_off": 55,
+      "desc": {
+        "style": "lifestyle",
+        "color": "blue",
+        "size": "12 x 12 x 12",
+        "type": "Lamps"
+      }
+    },
+    {
+      "img": "data/3lamps.jpg",
+      "name": "3 Light Candle Chandelier",
+      "manufacturer":"House of Hampton",
+      "before_price": 282.00,
+      "after_price": 116.99,
+      "percent_off": 55,
+      "desc": {
+        "style": "modern",
+        "color": "gray",
+        "size": "12 x 12 x 12",
+        "type": "Lamps"
+      }
+    },
+    {
+      "img": "data/decore2.jpg",
+      "name": "The Days Catch",
+      "manufacturer":"iCanvas",
+      "before_price": 12,
+      "after_price": 10,
+      "percent_off": 10,
+      "desc": {
+        "style": "modern",
+        "color": "brown",
+        "size": "12 x 12 x 12",
+        "type": "Decore"
+      }
+    },
+    {
+      "img": "data/pillow.jpg",
+      "name": "Stag Lumbar Pillow in White",
+      "manufacturer":"iCanvas",
+      "before_price": 12,
+      "after_price": 10,
+      "percent_off": 15,
+      "desc": {
+        "style": "antique",
+        "color": "white",
+        "size": "12 x 12 x 12",
+        "type": "Decore"
+      }
+    },
+    {
+      "img": "data/shark.jpg",
+      "name": "15.6 Volt Cordless Pet Perfect Hand Vacuum",
+      "manufacturer":"Honey Can Do",
+      "before_price": 12,
+      "after_price": 10,
+      "percent_off": 5,
+      "desc": {
+        "style": "modern",
+        "color": "blue",
+        "size": "12 x 12 x 12",
+        "type": "Cleaners"
+      }
+    },
+    {
+      "img": "data/volt.jpg",
+      "name": "Navigator Cordless Upright Stick Vacuum",
+      "manufacturer":"Shark",
+      "before_price": 12,
+      "after_price": 10,
+      "percent_off": 10,
+      "desc": {
+        "style": "modern",
+        "color": "blue",
+        "size": "12 x 12 x 12",
+        "type": "Cleaners"
+      }
+    }
+  ]
