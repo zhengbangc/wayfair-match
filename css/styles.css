@@ -4317,7 +4317,7 @@ body {
   /* line 157, ../../source_sass/_base.scss */
   .Wayfair_Match_App .buttons {
     width: 400px;
-    margin: auto;
+    margin: 30px auto;
     text-align: center; }
     @media screen and (min-width: 0em) and (max-width: 39.9375em) {
       /* line 157, ../../source_sass/_base.scss */
