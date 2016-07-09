@@ -4325,10 +4325,11 @@ body {
     .Wayfair_Match_App .buttons button {
       width: 80px;
       margin: 0 10px; }
-      /* line 166, ../../source_sass/_base.scss */
-      .Wayfair_Match_App .buttons button:focus {
-        outline: none; }
-      /* line 169, ../../source_sass/_base.scss */
+      @media screen and (min-width: 40em) {
+        /* line 167, ../../source_sass/_base.scss */
+        .Wayfair_Match_App .buttons button:focus {
+          outline: none; } }
+      /* line 171, ../../source_sass/_base.scss */
       .Wayfair_Match_App .buttons button img {
         transition: all 0.4s ease-in-out;
         -webkit-transition: all 0.4s ease-in-out;
