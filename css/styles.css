@@ -4162,8 +4162,8 @@ table.hover tr:nth-of-type(even):hover {
   float: right; }
 
 /* line 1, ../../source_sass/_base.scss */
-body {
-  overflow-x: hidden;
+.Wayfair_Match_Wrapper {
+  overflow: hidden;
   width: 100vw;
   height: 100vh; }
 
