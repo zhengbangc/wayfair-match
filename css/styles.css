@@ -4295,7 +4295,6 @@ body {
         transform: rotate(3deg); }
     /* line 132, ../../source_sass/_base.scss */
     .Wayfair_Match_App .product_cards ul .like, .Wayfair_Match_App .product_cards ul .dislike {
-      background: url("../data/liked.svg") no-repeat scroll 0 0;
       opacity: 0;
       position: absolute;
       height: 80px;
@@ -4311,30 +4310,23 @@ body {
       transform: translate3d(0%, 0, 0) scale3d(1, 1, 1);
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; }
-    /* line 150, ../../source_sass/_base.scss */
+    /* line 149, ../../source_sass/_base.scss */
     .Wayfair_Match_App .product_cards ul .dislike {
       right: 45px;
-      left: auto;
-      background: url("../data/nope.svg") no-repeat scroll 0 0; }
-  /* line 159, ../../source_sass/_base.scss */
+      left: auto; }
+  /* line 157, ../../source_sass/_base.scss */
   .Wayfair_Match_App .buttons {
     width: 400px;
     margin: auto;
     text-align: center; }
-    /* line 163, ../../source_sass/_base.scss */
+    /* line 161, ../../source_sass/_base.scss */
     .Wayfair_Match_App .buttons button {
       width: 80px;
       margin: 0 10px; }
       @media screen and (min-width: 40em) {
-        /* line 167, ../../source_sass/_base.scss */
+        /* line 165, ../../source_sass/_base.scss */
         .Wayfair_Match_App .buttons button:focus {
           outline: none; } }
-      /* line 171, ../../source_sass/_base.scss */
-      .Wayfair_Match_App .buttons button img {
-        transition: all 0.4s ease-in-out;
-        -webkit-transition: all 0.4s ease-in-out;
-        -moz-transition: all 0.4s ease-in-out;
-        -o-transition: all 0.4s ease-in-out; }
 
 /*
   NOTE: Do not touch this file. Write the bulk of your custom styles
