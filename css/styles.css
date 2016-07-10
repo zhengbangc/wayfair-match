@@ -4331,6 +4331,36 @@ table.hover tr:nth-of-type(even):hover {
         /* line 168, ../../source_sass/_base.scss */
         .Wayfair_Match_App .buttons button:focus {
           outline: none; } }
+  /* line 175, ../../source_sass/_base.scss */
+  .Wayfair_Match_App .reveal {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+    border: 0;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial; }
+    /* line 176, ../../source_sass/_base.scss */
+    .Wayfair_Match_App .reveal:focus {
+      outline: none; }
+    /* line 185, ../../source_sass/_base.scss */
+    .Wayfair_Match_App .reveal a {
+      text-decoration: underline; }
+    /* line 188, ../../source_sass/_base.scss */
+    .Wayfair_Match_App .reveal h1 {
+      font-size: larger;
+      font-weight: bold; }
+    /* line 192, ../../source_sass/_base.scss */
+    .Wayfair_Match_App .reveal .submit_button {
+      background-color: #864887;
+      font-size: 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #fff;
+      width: 200px;
+      height: auto;
+      padding: 10px; }
 
 /*
   NOTE: Do not touch this file. Write the bulk of your custom styles

@@ -1,6 +1,5 @@
 <div class="Wayfair_Match_App">
 	<img class="wayfair_logo" src="data/wayfair_logo.jpg">
-
 	<div class="product_cards">
 	    <ul swing-stack swing-options="options">
 	    	<li swing-card
@@ -9,8 +8,8 @@
         	class="pane{{$index}}"
         	>
 	        	<div class="promotion_header">
-					<p>Checkout now to get <span>30%</span> off extra</p>
-					<p><span>{{down_count}}</span> Until Offer Ends</p>
+					<p>Checkout now to get <span>{{product.percent_off}}%</span> off extra</p>
+					<p><timer countdown="count_down" interval="1000" >{{minutes}}:{{seconds}}</timer> Until Offer Ends</p>
 				</div>
 				<div class="product_image"><img ng-src="{{product.img}}" alt="Product Image"></div>
 				<div class="product_description">
@@ -29,15 +28,39 @@
 	        	</button>
         	</li>
 	    </ul>
-	    <!-- <ul>
-	    	<li ng-repeat="product in products" class="pane{{$index+1}} {{$index}}">
-				
-	    	</li>	       
-	    </ul> -->
 	</div>
 	<div class="buttons">
-		<button class="dislike"><img src="data/dislike.png"></button>
-		<button class="checkout"><img src="data/checkout.png"></button>
-		<button class="like"><img src="data/like.png"></button>
+		<button class="dislike" ng-click="remove_top()"><img src="data/dislike.png"></button>
+		<button class="checkout" onclick="new Foundation.Reveal($('#reveal')).open();$scope"><img src="data/checkout.png"></button>
+		<button class="like" ng-click="remove_top()"><img src="data/like.png"></button>
 	</div>
+	<div class="reveal" id="reveal">
+		<h1>Add a Credit/Debit card</h1>
+		<form name="myForm">
+			Card Number*<br/><input type="text" required>
+			<table class="date_table">
+				<tr>
+					<td>
+						<label class="lable_class" for="month">
+							<span class="lable_name">Expiration Date (MM/YYYY)*</span>
+							<input class="input_text" type="text" id="month" />
+						</label>
+					</td>
+					<td>
+						<label class="lable_class" for="cvv">
+							<span class="lable_name">Security Code* </span> <a href="http://www.wayfair.com//popups/about_cvv.php">what is this?</a>
+							<input class="input_text" type="text" id="cvv" />
+						</label>
+					</td>
+				</tr>
+			</table>
+			Billing Address*<input type="text" required>
+			Shipping Address*<input type="text" required>
+			<button class="submit_button" type="submit">Pay</button>
+		</form>
+		<button class="close-button" data-close aria-label="Close modal" type="button">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+
 </div>

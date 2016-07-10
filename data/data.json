@@ -5,6 +5,7 @@
       "manufacturer":"Some Manufacturer",
       "before_price": 59.00,
       "after_price": 40.99,
+      "percent_off": 15,
       "desc": {
         "style": "lifestyle",
         "color": "blue",
