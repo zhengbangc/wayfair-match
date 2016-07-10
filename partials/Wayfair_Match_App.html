@@ -3,36 +3,33 @@
 	<div class="product_cards">
 	    <ul swing-stack swing-options="options">
 	    	<li swing-card
-	    	swing-on-throwout="remove($index)"
         	ng-repeat="product in products"
         	class="pane{{$index}}"
         	>
 	        	<div class="promotion_header">
 					<p>Checkout now to get <span>{{product.percent_off}}%</span> off extra</p>
-					<p><timer countdown="count_down" interval="1000" >{{minutes}}:{{seconds}}</timer> Until Offer Ends</p>
+					<p><timer countdown="count_down" interval="1000" >{{minutes}} minutes {{seconds}} seconds</timer> Until Offer Ends</p>
 				</div>
 				<div class="product_image"><img ng-src="{{product.img}}" alt="Product Image"></div>
 				<div class="product_description">
-					<p>{{product.name}}</p>
-					<p>by {{product.manufacturer}}</p>
-					<div class="product_price">
-						<span>${{product.after_price}}</span>
-						<span>${{product.before_price}}</span>
+					<div class="product_description_container">
+						<p>{{product.name}}</p>
+						<p>by {{product.manufacturer}}</p>
+						<div class="product_price">
+							<span>${{product.after_price}}</span>
+							<span>${{product.before_price}}</span>
+						</div>
 					</div>
 				</div>
-	        	<button class="like">
-	        		<img src="data/liked.svg">
-	        	</button>
-	        	<button class="dislike">
-	        		<img src="data/liked.svg">
-	        	</button>
+				<img class="status_like" src="data/liked.svg">
+				<img class="status_nope" src="data/nope.svg">
         	</li>
 	    </ul>
 	</div>
 	<div class="buttons">
-		<button class="dislike" ng-click="remove_top()"><img src="data/dislike.png"></button>
+		<button class="dislike" ng-click="click_remove('dislike')"><img src="data/dislike.png"></button>
 		<button class="checkout" onclick="new Foundation.Reveal($('#reveal')).open();$scope"><img src="data/checkout.png"></button>
-		<button class="like" ng-click="remove_top()"><img src="data/like.png"></button>
+		<button class="like" ng-click="click_remove('like')"><img src="data/like.png"></button>
 	</div>
 	<div class="reveal" id="reveal">
 		<h1>Add a Credit/Debit card</h1>
