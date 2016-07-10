@@ -4308,7 +4308,7 @@ table.hover tr:nth-of-type(even):hover {
       .Wayfair_Match_App .product_cards ul li .status_like {
         width: 100px;
         position: absolute;
-        right: 20px;
+        left: 20px;
         bottom: 160px;
         opacity: 0;
         transition: all 0.2s ease-in-out;
@@ -4321,7 +4321,7 @@ table.hover tr:nth-of-type(even):hover {
       .Wayfair_Match_App .product_cards ul li .status_nope {
         width: 100px;
         position: absolute;
-        left: 20px;
+        right: 20px;
         bottom: 160px;
         opacity: 0;
         transition: all 0.2s ease-in-out;
