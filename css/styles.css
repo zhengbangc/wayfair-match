@@ -4311,10 +4311,10 @@ table.hover tr:nth-of-type(even):hover {
         left: 20px;
         bottom: 160px;
         opacity: 0;
-        transition: all 0.2s ease-in-out;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
         pointer-events: none;
         cursor: none; }
       /* line 151, ../../source_sass/_base.scss */
@@ -4324,10 +4324,10 @@ table.hover tr:nth-of-type(even):hover {
         right: 20px;
         bottom: 160px;
         opacity: 0;
-        transition: all 0.2s ease-in-out;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
         pointer-events: none;
         cursor: none; }
   /* line 166, ../../source_sass/_base.scss */
