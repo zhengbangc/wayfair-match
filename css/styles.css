@@ -4167,23 +4167,23 @@ table.hover tr:nth-of-type(even):hover {
   width: 100vw;
   height: 100vh; }
 
-/* line 6, ../../source_sass/_base.scss */
+/* line 7, ../../source_sass/_base.scss */
 .Wayfair_Match_App {
   position: absolute;
   width: 100vw;
   height: 100vh;
   overflow: hidden; }
-  /* line 11, ../../source_sass/_base.scss */
+  /* line 12, ../../source_sass/_base.scss */
   .Wayfair_Match_App .wayfair_logo {
     width: 150px;
     margin: 30px auto;
     display: block; }
     @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-      /* line 11, ../../source_sass/_base.scss */
+      /* line 12, ../../source_sass/_base.scss */
       .Wayfair_Match_App .wayfair_logo {
         margin: 20px auto -15px;
         width: 90px; } }
-  /* line 21, ../../source_sass/_base.scss */
+  /* line 22, ../../source_sass/_base.scss */
   .Wayfair_Match_App .product_cards ul {
     margin: 0;
     position: relative;
@@ -4191,7 +4191,7 @@ table.hover tr:nth-of-type(even):hover {
     width: 300px;
     height: 450px;
     margin: 30px auto; }
-    /* line 28, ../../source_sass/_base.scss */
+    /* line 29, ../../source_sass/_base.scss */
     .Wayfair_Match_App .product_cards ul li {
       cursor: default;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
@@ -4213,14 +4213,14 @@ table.hover tr:nth-of-type(even):hover {
       transform: translate3d(0%, 0, 0) scale3d(1, 1, 1);
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden; }
-      /* line 49, ../../source_sass/_base.scss */
+      /* line 50, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li .promotion_header {
         position: absolute;
         height: 40px;
         text-align: center;
         background-color: rgba(196, 44, 5, 0.85);
         width: 100%; }
-        /* line 55, ../../source_sass/_base.scss */
+        /* line 56, ../../source_sass/_base.scss */
         .Wayfair_Match_App .product_cards ul li .promotion_header p {
           line-height: 20px;
           margin: 0;
@@ -4228,25 +4228,25 @@ table.hover tr:nth-of-type(even):hover {
           font-family: 'Open Sans', sans-serif;
           font-weight: 400;
           font-size: 14px; }
-          /* line 62, ../../source_sass/_base.scss */
+          /* line 63, ../../source_sass/_base.scss */
           .Wayfair_Match_App .product_cards ul li .promotion_header p span {
             color: #FFCF00; }
-      /* line 67, ../../source_sass/_base.scss */
+      /* line 68, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li .product_image {
         width: 100%;
         pointer-events: none;
         cursor: default;
         background-color: white; }
-        /* line 72, ../../source_sass/_base.scss */
+        /* line 73, ../../source_sass/_base.scss */
         .Wayfair_Match_App .product_cards ul li .product_image img {
           width: 100%; }
-      /* line 76, ../../source_sass/_base.scss */
+      /* line 77, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li .product_description {
         height: 150px;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
         position: relative; }
-        /* line 81, ../../source_sass/_base.scss */
+        /* line 82, ../../source_sass/_base.scss */
         .Wayfair_Match_App .product_cards ul li .product_description .product_description_container {
           position: absolute;
           top: 50%;
@@ -4256,55 +4256,55 @@ table.hover tr:nth-of-type(even):hover {
           -ms-transform: translateY(-50%);
           -webkit-transform: translateY(-50%);
           transform: translateY(-50%); }
-          /* line 88, ../../source_sass/_base.scss */
+          /* line 89, ../../source_sass/_base.scss */
           .Wayfair_Match_App .product_cards ul li .product_description .product_description_container p {
             line-height: 22px;
             margin-bottom: 0; }
-            /* line 91, ../../source_sass/_base.scss */
+            /* line 92, ../../source_sass/_base.scss */
             .Wayfair_Match_App .product_cards ul li .product_description .product_description_container p:nth-child(1) {
               font-weight: 400; }
-            /* line 94, ../../source_sass/_base.scss */
+            /* line 95, ../../source_sass/_base.scss */
             .Wayfair_Match_App .product_cards ul li .product_description .product_description_container p:nth-child(2) {
               font-weight: 300; }
-          /* line 99, ../../source_sass/_base.scss */
+          /* line 100, ../../source_sass/_base.scss */
           .Wayfair_Match_App .product_cards ul li .product_description .product_description_container .product_price span {
             margin: 0 2px; }
-            /* line 101, ../../source_sass/_base.scss */
+            /* line 102, ../../source_sass/_base.scss */
             .Wayfair_Match_App .product_cards ul li .product_description .product_description_container .product_price span:nth-child(1) {
               color: red;
               font-weight: 600; }
-            /* line 105, ../../source_sass/_base.scss */
+            /* line 106, ../../source_sass/_base.scss */
             .Wayfair_Match_App .product_cards ul li .product_description .product_description_container .product_price span:nth-child(2) {
               text-decoration: line-through; }
-      /* line 112, ../../source_sass/_base.scss */
+      /* line 113, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li.pane1 {
         -webkit-transform: rotate(-1deg);
         -moz-transform: rotate(-1deg);
         -o-transform: rotate(-1deg);
         -ms-transform: rotate(-1deg);
         transform: rotate(-1deg); }
-      /* line 119, ../../source_sass/_base.scss */
+      /* line 120, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li.pane2 {
         -webkit-transform: rotate(1deg);
         -moz-transform: rotate(1deg);
         -o-transform: rotate(1deg);
         -ms-transform: rotate(1deg);
         transform: rotate(1deg); }
-      /* line 126, ../../source_sass/_base.scss */
+      /* line 127, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li.pane3 {
         -webkit-transform: rotate(-3deg);
         -moz-transform: rotate(-3deg);
         -o-transform: rotate(-3deg);
         -ms-transform: rotate(-3deg);
         transform: rotate(-3deg); }
-      /* line 133, ../../source_sass/_base.scss */
+      /* line 134, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li.pane4 {
         -webkit-transform: rotate(3deg);
         -moz-transform: rotate(3deg);
         -o-transform: rotate(3deg);
         -ms-transform: rotate(3deg);
         transform: rotate(3deg); }
-      /* line 140, ../../source_sass/_base.scss */
+      /* line 141, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li .status_like {
         width: 100px;
         position: absolute;
@@ -4317,7 +4317,7 @@ table.hover tr:nth-of-type(even):hover {
         -o-transition: all 0.2s ease-in-out;
         pointer-events: none;
         cursor: none; }
-      /* line 150, ../../source_sass/_base.scss */
+      /* line 151, ../../source_sass/_base.scss */
       .Wayfair_Match_App .product_cards ul li .status_nope {
         width: 100px;
         position: absolute;
@@ -4330,24 +4330,24 @@ table.hover tr:nth-of-type(even):hover {
         -o-transition: all 0.2s ease-in-out;
         pointer-events: none;
         cursor: none; }
-  /* line 165, ../../source_sass/_base.scss */
+  /* line 166, ../../source_sass/_base.scss */
   .Wayfair_Match_App .buttons {
     width: 400px;
     margin: 30px auto;
     text-align: center; }
     @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-      /* line 165, ../../source_sass/_base.scss */
+      /* line 166, ../../source_sass/_base.scss */
       .Wayfair_Match_App .buttons {
         margin: -10px auto; } }
-    /* line 172, ../../source_sass/_base.scss */
+    /* line 173, ../../source_sass/_base.scss */
     .Wayfair_Match_App .buttons button {
       width: 80px;
       margin: 0 10px; }
       @media screen and (min-width: 40em) {
-        /* line 176, ../../source_sass/_base.scss */
+        /* line 177, ../../source_sass/_base.scss */
         .Wayfair_Match_App .buttons button:focus {
           outline: none; } }
-  /* line 183, ../../source_sass/_base.scss */
+  /* line 184, ../../source_sass/_base.scss */
   .Wayfair_Match_App .reveal {
     background-color: #fefefe;
     margin: 15% auto;
@@ -4357,17 +4357,17 @@ table.hover tr:nth-of-type(even):hover {
     /* Could be more or less, depending on screen size */
     border: 0;
     font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial; }
-    /* line 184, ../../source_sass/_base.scss */
+    /* line 185, ../../source_sass/_base.scss */
     .Wayfair_Match_App .reveal:focus {
       outline: none; }
-    /* line 193, ../../source_sass/_base.scss */
+    /* line 194, ../../source_sass/_base.scss */
     .Wayfair_Match_App .reveal a {
       text-decoration: underline; }
-    /* line 196, ../../source_sass/_base.scss */
+    /* line 197, ../../source_sass/_base.scss */
     .Wayfair_Match_App .reveal h1 {
       font-size: larger;
       font-weight: bold; }
-    /* line 200, ../../source_sass/_base.scss */
+    /* line 201, ../../source_sass/_base.scss */
     .Wayfair_Match_App .reveal .submit_button {
       background-color: #864887;
       font-size: 18px;
