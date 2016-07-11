@@ -10,14 +10,14 @@
 					<p>Checkout now to get <span>{{product.percent_off}}%</span> off extra</p>
 					<p><timer countdown="count_down" interval="1000" >{{minutes}} minutes {{seconds}} seconds</timer> Until Offer Ends</p>
 				</div>
-				<div class="product_image"><img ng-src="{{product.img}}" alt="Product Image"></div>
+				<div class="product_image"><img ng-src="{{product.img_src}}" alt="Product Image"></div>
 				<div class="product_description">
 					<div class="product_description_container">
 						<p>{{product.name}}</p>
 						<p>by {{product.manufacturer}}</p>
 						<div class="product_price">
-							<span>${{product.after_price}}</span>
-							<span>${{product.before_price}}</span>
+							<span>${{product.price}}</span>
+							<span ng-if="product.wasprice !== 'NULL'">{{product.wasprice}}</span>
 						</div>
 					</div>
 				</div>
